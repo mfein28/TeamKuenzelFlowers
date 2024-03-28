@@ -1,101 +1,320 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import logo from "./logo.svg";
-
-
+import KatrinaZell from './Headshots/KatrinaZell.png'
+import MichelleCody from './Headshots/MichelleCody.png'
+import DipenPatel from './Headshots/DipenPatel.png'
+import MaxineAttobrah from './Headshots/MaxineAttobrah.png'
+import MadelineStilley from './Headshots/MadelineStilley.jpg'
+import GraceTang from './Headshots/GraceTang.jpg'
+import CedricMoore from './Headshots/CedricMoore.jpg'
+import BrandonWeathers from './Headshots/BrandonWeathers.jpg'
+import SanjeevSingh from './Headshots/SanjeevSingh.jpg'
+import JonahEide from './Headshots/JonahEide.jpg'
+import AdelHassen from './Headshots/AdelHassen.jpg'
+import FarhadSaffaraval from './Headshots/FarhadSaffaraval.jpg'
+import KimberlyHayes from './Headshots/KimHayes.jpg'
+import BalwinderKaur from './Headshots/BalKaur.jpg'
+import SkyeToor from './Headshots/SkyeToor.jpg'
+import MattFein from './Headshots/MattFein.jpg'
 function Timeline() {
     return (
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="2011 - present"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                contentStyle={{ background: '#F0E130', color: '#000000' }}
+
+                date="April 10, 2023"
+                iconStyle={{ background: '#F0E130', color: '#000000' }}
                 // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Matt Fein</h3>
-                <h4 className="vertical-timeline-element-subtitle">Tulip</h4>
-                <p>
-                    Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                <img src={KatrinaZell} alt="My Image" />
+                <h3 style={{color:"#000000"}} className="vertical-timeline-element-title">Katrina Zell</h3>
+                <h4 style={{color:"#000000"}} className="vertical-timeline-element-subtitle">Dandelion</h4>
+                <p style={{color:"#000000"}}>
+                    Job Description
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2010 - 2011"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                date="May 17, 2023"
+                iconStyle={{background: '#ebd582', color: '#000000'}}
+                contentStyle={{background: '#ebd582', color: '#000000'}}
+
                 // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Art Director</h3>
-                <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                <p>
-                    Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                <img src={MichelleCody}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Michelle Cody</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Daisy</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2008 - 2010"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                date="June 6, 2023"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
                 // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-                <p>
-                    User Experience, Visual Design
+                <img src={DipenPatel}/>
+
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Dipen Patel</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2006 - 2008"
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                date="June 12, 2023"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
                 // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                <p>
-                    {/*User Experience, Visual Design*/}
+                <img src={MaxineAttobrah}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Maxine Attobrah</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="April 2013"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                // icon={<SchoolIcon />}
+                className="vertical-timeline-element--work"
+                date="July 16, 2023"
+                iconStyle={{background: '#ebd582', color: '#000000'}}
+                contentStyle={{background: '#ebd582', color: '#000000'}}
+
+                // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-                <p>
-                    Strategy, Social Media
+                <img src={MadelineStilley}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Madeline Stilley</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Daisy</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="November 2012"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                // icon={<SchoolIcon />}
+                className="vertical-timeline-element--work"
+                date="August 14, 2023"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                <p>
-                    Creative Direction, User Experience, Visual Design
+                <img src={GraceTang}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Grace Tang</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="2002 - 2006"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                // icon={<SchoolIcon />}
+                className="vertical-timeline-element--work"
+                date="September 5, 2023"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                <p>
-                    Creative Direction, Visual Design
+                <img src={CedricMoore}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Cedric Moore</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                // icon={<StarIcon />}
-            />
+                className="vertical-timeline-element--work"
+                date="September 18, 2023"
+                iconStyle={{background: '#ebd582', color: '#000000'}}
+                contentStyle={{background: '#ebd582', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={BrandonWeathers}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Brandon Weathers</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Daisy</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="October 23, 2023"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={SanjeevSingh}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Sanjeev Singh</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="October 30, 2023"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={JonahEide}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Jonah Eide</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={AdelHassen}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Adel Hassen</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="November 13, 2023"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={FarhadSaffaraval}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Farhad Saffaraval</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="November 27, 2023"
+                iconStyle={{background: '#E35335', color: '#000000'}}
+                contentStyle={{background: '#E35335', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={KimberlyHayes}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Kimberly Hayes</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Poppy</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={BalwinderKaur}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Balwinder Kaur</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                iconStyle={{background: '#b6b6b6', color: '#000000'}}
+                contentStyle={{background: '#b6b6b6', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={SkyeToor}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Skye Toor</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="November 29, 2023"
+                className="vertical-timeline-element--work"
+                iconStyle={{background: '#ff878d', color: '#000000'}}
+                contentStyle={{background: '#ff878d', color: '#000000'}}
+
+                // icon={<WorkIcon />}
+            >
+                <img src={MattFein}/>
+                <h3 style={{color: "#000000"}} className="vertical-timeline-element-title">Matt Fein</h3>
+                <h4 style={{color: "#000000"}} className="vertical-timeline-element-subtitle">Tulip</h4>
+                <p style={{color: "#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="January 8th, 2024"
+                className="vertical-timeline-element--work"
+                iconStyle={{ background: '#ebd582', color: '#000000' }}
+                contentStyle={{ background: '#ebd582', color: '#000000' }}
+
+                // icon={<WorkIcon />}
+            >
+                <h3 style={{color:"#000000"}} className="vertical-timeline-element-title">Lila Zapata</h3>
+                <h4 style={{color:"#000000"}} className="vertical-timeline-element-subtitle">Daisy</h4>
+                <p style={{color:"#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="January 16th, 2024"
+                className="vertical-timeline-element--work"
+                iconStyle={{ background: '#b6b6b6', color: '#000000' }}
+                contentStyle={{ background: '#b6b6b6', color: '#000000' }}
+
+                // icon={<WorkIcon />}
+            >
+                <h3 style={{color:"#000000"}} className="vertical-timeline-element-title">Joel Konitzer</h3>
+                <h4 style={{color:"#000000"}} className="vertical-timeline-element-subtitle">Unknown</h4>
+                <p style={{color:"#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="February 1, 2024"
+                className="vertical-timeline-element--work"
+                iconStyle={{ background: '#E35335', color: '#000000' }}
+                contentStyle={{ background: '#E35335', color: '#000000' }}
+
+                // icon={<WorkIcon />}
+            >
+                <h3 style={{color:"#000000"}} className="vertical-timeline-element-title">Emily Pham</h3>
+                <h4 style={{color:"#000000"}} className="vertical-timeline-element-subtitle">Poppy</h4>
+                <p style={{color:"#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="February 26, 2024"
+                className="vertical-timeline-element--work"
+                iconStyle={{ background: '#B47CDA', color: '#000000' }}
+                contentStyle={{ background: '#B47CDA', color: '#000000' }}
+
+                // icon={<WorkIcon />}
+            >
+                <h3 style={{color:"#000000"}} className="vertical-timeline-element-title">Binu Mathew</h3>
+                <h4 style={{color:"#000000"}} className="vertical-timeline-element-subtitle">Dahlia</h4>
+                <p style={{color:"#000000"}}>
+                    Job Description
+                </p>
+            </VerticalTimelineElement>
+
         </VerticalTimeline>
     );
 }
